@@ -64,7 +64,7 @@
 
 - GitHub 仓库：[https://github.com/garinasset/SafariGoogleRedirect](https://github.com/garinasset/SafariGoogleRedirect)  
 - Issues & Bug 报告：[https://github.com/garinasset/SafariGoogleRedirect/issues](https://github.com/garinasset/SafariGoogleRedirect/issues)  
-- 自动更新：脚本内配置了 `@updateURL` 指向 GitHub Raw 文件，用户脚本扩展 会自动检查更新 (如果你使用的 Safari 扩展支持自动更新).
+- 自动更新：脚本内配置了 `@updateURL` 指向 GitHub Raw 文件，用户脚本扩展 会自动检查更新 (如果你使用的 Safari 用户脚本扩展支持自动更新).
 
 ---
 
