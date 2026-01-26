@@ -1,6 +1,6 @@
 # SafariGoogleRedirect
 
-**SafariGoogleRedirect**（Safari · Google 重定向）是一个 Tampermonkey/Greasemonkey 用户脚本，专为 **Safari 浏览器在中国大陆地区使用 Google 搜索时** 设计，用于**解决 Google 搜索跳 中间层 问题**，提升用户体验。
+**SafariGoogleRedirect**（Safari · Google 重定向）是一个 Tampermonkey/Greasemonkey 用户脚本，专为 **Safari 浏览器在中国大陆地区使用 Google 搜索时** 设计，用于**解决 Google 搜索跳 中间层 问题**，大大提升 Safari 用户体验。
 
 ---
 
