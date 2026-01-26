@@ -1,16 +1,16 @@
 # SafariGoogleRedirect
 
-**SafariGoogleRedirect**（Safari · Google 重定向）是一个 Tampermonkey/Greasemonkey 用户脚本，专为 **Safari 浏览器在中国大陆地区使用 Google 搜索时** 设计，用于**自动处理 Google 搜索中间层问题并生成最小化 URL**，并提升用户体验。
+**SafariGoogleRedirect**（Safari · Google 重定向）是一个 Tampermonkey/Greasemonkey 用户脚本，专为 **Safari 浏览器在中国大陆地区使用 Google 搜索时** 设计，用于**解决 Google 搜索跳 中间层 问题**，提升用户体验。
 
 ---
 
 ## 功能特性
 
 - **自动重定向**  
-  当 iPhone 地区设置为中国大陆, Safari 设置为谷歌搜索时, 自动将访问的 Google 中国搜索页面（`www.google.cn`）或 Safari 搜索跳转产生的中间层页面，重定向到 Google 国际版（`www.google.com`），解决 Safari 大陆地区 Google 搜索弹出中间确认页的问题。  
+  当 iPhone 地区设置为中国大陆, Safari 设置为谷歌搜索时, 自动将访问的 Google 中国搜索页面（`www.google.cn`）或 Safari 搜索跳转产生的中间层页面，重定向到 Google 国际版（`www.google.com`），解决 Safari 大陆地区 Google 搜索先弹出 中间层 确认页的问题。  
 
 - **最小 URL 构造**  
-  构造最简洁搜索 URL，仅保留 `q`（搜索关键词）参数，去除多余参数（如 `hl`、`ie`、`oe`、`client` 等），保证搜索 URL 干净、统一。  
+  构造最简洁搜索 URL，仅保留 `q`（搜索关键词）参数，去除多余参数（如 `hl`、`ie`、`oe`、`client` 等），增强隐私安全, 保证搜索 URL 干净、统一。  
 
 - **加载动画改善闪烁体验**  
   在重定向之前，页面显示 **Google Logo + CSS Loading 动画**，减少中间层页面闪烁感，让用户体验更加平滑。  
@@ -36,12 +36,12 @@
 
 ## 安装方法
 
-1. 在 iPhone 安装 **Tampermonkey** 或 任意 **提供用户脚本功能** 的 Safari 浏览器扩展  
-2. 在你使用的扩展中, 添加脚本 URL为 [https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js](https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js) 
+1. 在 iPhone 安装 **Tampermonkey** 或 任意 **提供用户脚本功能** 的 Safari 浏览器扩展, 有收费的, 有免费的自行选择, 任意一个都可以.
+2. 在你选择使用的扩展中, 添加脚本, URL为 [https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js](https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js) 
 3. 下载添加后, 启用 **Safari · Google 重定向**
-4. 在 Safari 中访问 Google 中国搜索页面（如：`https://www.google.cn/search?q=xxx`），脚本会自动：
+4. 在 Safari 中选择 Google 作为搜索引擎, 在地址栏键入关键词, 例如 ‘test’ ,进行搜索时，脚本会自动：
    1. 显示临时中间层（Logo + 动画）  
-   2. 自动跳转到最小化 Google 国际版搜索 URL（`https://www.google.com/search?q=xxx`）  
+   2. 自动跳转到最小化 Google 国际版搜索 URL（`https://www.google.com/search?q=test`）  
 
 ---
 
