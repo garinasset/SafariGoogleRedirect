@@ -27,7 +27,7 @@
   无依赖、纯前端脚本，运行在 `document-start` 阶段，执行速度快，用户几乎感觉不到跳转。  
 
 - **兼容性好**  
-  支持 HTTP/HTTPS 协议，覆盖 Safari 在大陆地区的所有 Google 搜索页面；也可适配未来可能的 Google CN 中间页 URL。  
+  支持 HTTP/HTTPS 协议，覆盖 iOS 地区设置为中国大陆, Safari 设置为谷歌搜索的所有iOS版本；也可适配未来可能的 Google 中间层。  
 
 - **历史记录友好**  
   使用 `location.replace` 进行重定向，不污染浏览历史，返回键不会回到中间层页面。  
@@ -39,9 +39,9 @@
 1. 在 iPhone 安装 **Tampermonkey** 或 任意 **提供用户脚本功能** 的 Safari 浏览器扩展, 有收费的, 有免费的自行选择, 任意一个都可以.
 2. 在你选择使用的扩展中, 添加脚本, URL为 [https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js](https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js) 
 3. 下载添加后, 启用 **Safari · Google 重定向**
-4. 在 Safari 中选择 Google 作为搜索引擎, 在地址栏键入关键词, 例如 ‘test’ ,进行搜索时，脚本会自动：
-   1. 显示临时中间层（Logo + 动画）  
-   2. 自动跳转到最小化 Google 国际版搜索 URL（`https://www.google.com/search?q=test`）  
+4. 在 Safari 中选择 Google 作为搜索引擎, 在地址栏键入关键词, 进行搜索时，脚本会自动
+   1. 显示临时中间层 (Logo + 动画).
+   2. 自动跳转到 Google 国际版(www.google.com)的搜索结果页面, 搜索页面使用的就是你搜索的关键词哦.
 
 ---
 
@@ -64,7 +64,7 @@
 
 - GitHub 仓库：[https://github.com/garinasset/SafariGoogleRedirect](https://github.com/garinasset/SafariGoogleRedirect)  
 - Issues & Bug 报告：[https://github.com/garinasset/SafariGoogleRedirect/issues](https://github.com/garinasset/SafariGoogleRedirect/issues)  
-- 自动更新：脚本内配置了 `@updateURL` 指向 GitHub Raw 文件，Tampermonkey 会自动检查更新  
+- 自动更新：脚本内配置了 `@updateURL` 指向 GitHub Raw 文件，用户脚本扩展 会自动检查更新(如果你使用的Safari 扩展支持自动更细).
 
 ---
 
