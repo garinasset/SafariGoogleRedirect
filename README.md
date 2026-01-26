@@ -41,7 +41,7 @@
 3. 下载添加后, 启用 **Safari · Google 重定向**
 4. 在 Safari 中选择 Google 作为搜索引擎, 在地址栏键入关键词, 进行搜索时，脚本会自动
    1. 显示临时中间层 (Logo + 动画).
-   2. 自动跳转到 Google 国际版(www.google.com)的搜索结果页面, 搜索页面使用的就是你搜索的关键词哦.
+   2. 自动跳转到 Google 国际版 [www.google.com](www.google.com) 的搜索结果页面, 搜索页面使用的就是你搜索的关键词哦.
 
 ---
 
