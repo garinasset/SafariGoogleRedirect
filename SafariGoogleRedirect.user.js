@@ -13,8 +13,6 @@
 //
 // @match           http://www.google.cn/search*
 // @match           https://www.google.cn/search*
-// @match           http://www.google.com.hk/search*
-// @match           https://www.google.com.hk/search*
 //
 // @run-at          document-start
 //
