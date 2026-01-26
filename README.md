@@ -36,9 +36,10 @@
 
 ## 安装方法
 
-1. 安装 **Tampermonkey** 或 **Greasemonkey** 浏览器扩展  
-2. 点击 [安装脚本](https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js) 按钮，将脚本添加到浏览器扩展中  
-3. 在 Safari 中访问 Google 中国搜索页面（如：`https://www.google.cn/search?q=xxx`），脚本会自动：
+1. 在 iPhone 安装 **Tampermonkey** 或 任意 **提供用户脚本功能** 的 Safari 浏览器扩展  
+2. 在你使用的扩展中, 添加脚本 URL为 [https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js](https://raw.githubusercontent.com/garinasset/SafariGoogleRedirect/main/SafariGoogleRedirect.user.js) 
+3. 下载添加后, 启用 **Safari · Google 重定向**
+4. 在 Safari 中访问 Google 中国搜索页面（如：`https://www.google.cn/search?q=xxx`），脚本会自动：
    1. 显示临时中间层（Logo + 动画）  
    2. 自动跳转到最小化 Google 国际版搜索 URL（`https://www.google.com/search?q=xxx`）  
 
