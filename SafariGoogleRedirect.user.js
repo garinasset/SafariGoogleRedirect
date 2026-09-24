@@ -39,19 +39,19 @@
     // 显示临时中间层页面（Logo + loading）并自适应主题
     document.documentElement.innerHTML = `
     <style>
-    html, body { height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; background: ${background}; font-family: Arial, sans-serif; }
-    .container { text-align: center; }
-    .logo { margin-bottom: 20px; }
-    .loader {
-      border: 4px solid ${loaderBorder}; 
-      border-top: 4px solid ${loaderTop}; 
-      border-radius: 50%; 
-      width: 40px; 
-      height: 40px; 
-      animation: spin 1s linear infinite;
-      margin: 0 auto;
-    }
-    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      html, body { height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; background: ${background}; font-family: Arial, sans-serif; }
+      .container { text-align: center; }
+      .logo { margin-bottom: 20px; }
+      .loader {
+        border: 4px solid ${loaderBorder}; 
+        border-top: 4px solid ${loaderTop}; 
+        border-radius: 50%; 
+        width: 40px; 
+        height: 40px; 
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+      }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     </style>
     <div class="container">
       <img class="logo" src="https://www.google.cn/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png" width="150" height="54" alt="Google">
