@@ -3,7 +3,7 @@
 // @namespace       https://github.com/garinasset/SafariGoogleRedirect
 // @version         1.0.1
 //
-// @description     在 Safari 浏览器中，自动将访问的"Google 中国"搜索页面（www.google.cn）重定向到国际版"Google"搜索页面（www.google.com），以避免因"Google 中国"的限制而无法正常使用搜索功能。
+// @description     SafariGoogleRedirect**（Safari · Google 重定向）解决 **Safari 浏览器在中国大陆地区使用 Google 搜索时** 跳 google.com.hk 中间层的问题**，大大提升 Safari 用户体验。
 //
 // @author          garinasset
 // @license         MIT
