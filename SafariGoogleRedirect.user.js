@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Safari · Google 重定向
 // @namespace       https://github.com/garinasset/SafariGoogleRedirect
-// @version         1.0.1
+// @version         1.1.0
 //
 // @description     SafariGoogleRedirect（Safari · Google 重定向）解决当 iPhone 地区设置为中国大陆, Safari Google 搜索会跳 google.com.hk 中间层的问题，大大提升 Safari 用户体验。iPhone 地区现在可放心设置为中国大陆, 不用改地区了。
 //
