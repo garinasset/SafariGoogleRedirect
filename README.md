@@ -1,6 +1,6 @@
 # SafariGoogleRedirect
 
-当 iPhone 地区设置为中国大陆, Safari 设置为谷歌搜索时, 自动将访问的 Google 中国搜索页面（`www.google.cn`）或 Safari 搜索跳转产生的中间层页面，重定向到 Google 国际版（`www.google.com`），iPhone 地区现在可放心设置为中国大陆, 不用改地区了。  
+当 iPhone 地区设置为中国大陆, Safari 设置为谷歌搜索时, 自动将访问的 Google 中国搜索页面（`www.google.cn`）或 Safari 搜索跳转产生的 google.com.hk 中间层页面“移除”，并重定向到 Google 国际版（`www.google.com`），iPhone 地区现在可放心设置为中国大陆, 不用改地区了。  
 
 ---
 
