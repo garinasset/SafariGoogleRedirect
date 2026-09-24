@@ -1,13 +1,10 @@
 # SafariGoogleRedirect
 
-**SafariGoogleRedirect**（Safari · Google 重定向）是一个 Tampermonkey/Greasemonkey 用户脚本，解决 **Safari 浏览器在中国大陆地区使用 Google 搜索时** 跳 google.com.hk 中间层 问题**，大大提升 Safari 用户体验。
+当 iPhone 地区设置为中国大陆, Safari 设置为谷歌搜索时, 自动将访问的 Google 中国搜索页面（`www.google.cn`）或 Safari 搜索跳转产生的中间层页面，重定向到 Google 国际版（`www.google.com`），iPhone 地区可放心设置为中国大陆, 不用改地区了。  
 
 ---
 
 ## 功能特性
-
-- **自动重定向**  
-  当 iPhone 地区设置为中国大陆, Safari 设置为谷歌搜索时, 自动将访问的 Google 中国搜索页面（`www.google.cn`）或 Safari 搜索跳转产生的中间层页面，重定向到 Google 国际版（`www.google.com`），解决 Safari 大陆地区 Google 搜索先弹出 中间层 确认页的问题。  
 
 - **优化 URL 构造**  
   构造最简洁搜索 URL，仅保留 `q`（搜索关键词）参数，去除多余参数（如 `hl`、`ie`、`oe`、`client` 等），增强隐私安全, 保证搜索 URL 干净、统一。  
@@ -24,10 +21,10 @@
   智能提取并保留原搜索关键词，确保重定向后搜索结果一致、连贯。  
 
 - **轻量高效**  
-  无依赖、纯前端脚本，运行在 `document-start` 阶段，执行速度快，用户几乎感觉不到跳转。  
+  无依赖、纯前端脚本，运行在 `document-start` 阶段，执行速度快。  
 
 - **兼容性好**  
-  支持 HTTP/HTTPS 协议，覆盖 iOS 地区设置为中国大陆, Safari 设置为谷歌搜索的所有iOS版本。
+ 覆盖 iOS 地区设置为中国大陆, Safari 设置为谷歌搜索的所有iOS版本。
 
 - **历史记录友好**  
   使用 `location.replace` 进行重定向，不污染浏览历史，返回键不会回到中间层页面。  
